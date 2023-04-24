@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C831626529F6B20C00EC73EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831626429F6B20C00EC73EA /* AppDelegate.swift */; };
+		C831626729F6B20C00EC73EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831626629F6B20C00EC73EA /* SceneDelegate.swift */; };
+		C831626929F6B20C00EC73EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831626829F6B20C00EC73EA /* ViewController.swift */; };
+		C831626C29F6B20C00EC73EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C831626A29F6B20C00EC73EA /* Main.storyboard */; };
+		C831626E29F6B20D00EC73EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C831626D29F6B20D00EC73EA /* Assets.xcassets */; };
+		C831627129F6B20D00EC73EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C831626F29F6B20D00EC73EA /* LaunchScreen.storyboard */; };
+		C831627C29F6B20E00EC73EA /* WisdomLeafTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831627B29F6B20E00EC73EA /* WisdomLeafTakeHomeTests.swift */; };
+		C831628629F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831628529F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.swift */; };
+		C831628829F6B20E00EC73EA /* WisdomLeafTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831628729F6B20E00EC73EA /* WisdomLeafTakeHomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C831627829F6B20E00EC73EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C831625929F6B20C00EC73EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C831626029F6B20C00EC73EA;
+			remoteInfo = WisdomLeafTakeHome;
+		};
+		C831628229F6B20E00EC73EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C831625929F6B20C00EC73EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C831626029F6B20C00EC73EA;
+			remoteInfo = WisdomLeafTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C831626129F6B20C00EC73EA /* WisdomLeafTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomLeafTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831626429F6B20C00EC73EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C831626629F6B20C00EC73EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C831626829F6B20C00EC73EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C831626B29F6B20C00EC73EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C831626D29F6B20D00EC73EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C831627029F6B20D00EC73EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C831627229F6B20D00EC73EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C831627729F6B20E00EC73EA /* WisdomLeafTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomLeafTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831627B29F6B20E00EC73EA /* WisdomLeafTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomLeafTakeHomeTests.swift; sourceTree = "<group>"; };
+		C831628129F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomLeafTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831628529F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomLeafTakeHomeUITests.swift; sourceTree = "<group>"; };
+		C831628729F6B20E00EC73EA /* WisdomLeafTakeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomLeafTakeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C831625E29F6B20C00EC73EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627429F6B20E00EC73EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627E29F6B20E00EC73EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C831625829F6B20C00EC73EA = {
+			isa = PBXGroup;
+			children = (
+				C831626329F6B20C00EC73EA /* WisdomLeafTakeHome */,
+				C831627A29F6B20E00EC73EA /* WisdomLeafTakeHomeTests */,
+				C831628429F6B20E00EC73EA /* WisdomLeafTakeHomeUITests */,
+				C831626229F6B20C00EC73EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C831626229F6B20C00EC73EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C831626129F6B20C00EC73EA /* WisdomLeafTakeHome.app */,
+				C831627729F6B20E00EC73EA /* WisdomLeafTakeHomeTests.xctest */,
+				C831628129F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C831626329F6B20C00EC73EA /* WisdomLeafTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				C831626429F6B20C00EC73EA /* AppDelegate.swift */,
+				C831626629F6B20C00EC73EA /* SceneDelegate.swift */,
+				C831626829F6B20C00EC73EA /* ViewController.swift */,
+				C831626A29F6B20C00EC73EA /* Main.storyboard */,
+				C831626D29F6B20D00EC73EA /* Assets.xcassets */,
+				C831626F29F6B20D00EC73EA /* LaunchScreen.storyboard */,
+				C831627229F6B20D00EC73EA /* Info.plist */,
+			);
+			path = WisdomLeafTakeHome;
+			sourceTree = "<group>";
+		};
+		C831627A29F6B20E00EC73EA /* WisdomLeafTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C831627B29F6B20E00EC73EA /* WisdomLeafTakeHomeTests.swift */,
+			);
+			path = WisdomLeafTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		C831628429F6B20E00EC73EA /* WisdomLeafTakeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C831628529F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.swift */,
+				C831628729F6B20E00EC73EA /* WisdomLeafTakeHomeUITestsLaunchTests.swift */,
+			);
+			path = WisdomLeafTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C831626029F6B20C00EC73EA /* WisdomLeafTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831628B29F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHome" */;
+			buildPhases = (
+				C831625D29F6B20C00EC73EA /* Sources */,
+				C831625E29F6B20C00EC73EA /* Frameworks */,
+				C831625F29F6B20C00EC73EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisdomLeafTakeHome;
+			productName = WisdomLeafTakeHome;
+			productReference = C831626129F6B20C00EC73EA /* WisdomLeafTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C831627629F6B20E00EC73EA /* WisdomLeafTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831628E29F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHomeTests" */;
+			buildPhases = (
+				C831627329F6B20E00EC73EA /* Sources */,
+				C831627429F6B20E00EC73EA /* Frameworks */,
+				C831627529F6B20E00EC73EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C831627929F6B20E00EC73EA /* PBXTargetDependency */,
+			);
+			name = WisdomLeafTakeHomeTests;
+			productName = WisdomLeafTakeHomeTests;
+			productReference = C831627729F6B20E00EC73EA /* WisdomLeafTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C831628029F6B20E00EC73EA /* WisdomLeafTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831629129F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHomeUITests" */;
+			buildPhases = (
+				C831627D29F6B20E00EC73EA /* Sources */,
+				C831627E29F6B20E00EC73EA /* Frameworks */,
+				C831627F29F6B20E00EC73EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C831628329F6B20E00EC73EA /* PBXTargetDependency */,
+			);
+			name = WisdomLeafTakeHomeUITests;
+			productName = WisdomLeafTakeHomeUITests;
+			productReference = C831628129F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C831625929F6B20C00EC73EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C831626029F6B20C00EC73EA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C831627629F6B20E00EC73EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C831626029F6B20C00EC73EA;
+					};
+					C831628029F6B20E00EC73EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C831626029F6B20C00EC73EA;
+					};
+				};
+			};
+			buildConfigurationList = C831625C29F6B20C00EC73EA /* Build configuration list for PBXProject "WisdomLeafTakeHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C831625829F6B20C00EC73EA;
+			productRefGroup = C831626229F6B20C00EC73EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C831626029F6B20C00EC73EA /* WisdomLeafTakeHome */,
+				C831627629F6B20E00EC73EA /* WisdomLeafTakeHomeTests */,
+				C831628029F6B20E00EC73EA /* WisdomLeafTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C831625F29F6B20C00EC73EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831627129F6B20D00EC73EA /* LaunchScreen.storyboard in Resources */,
+				C831626E29F6B20D00EC73EA /* Assets.xcassets in Resources */,
+				C831626C29F6B20C00EC73EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627529F6B20E00EC73EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627F29F6B20E00EC73EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C831625D29F6B20C00EC73EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831626929F6B20C00EC73EA /* ViewController.swift in Sources */,
+				C831626529F6B20C00EC73EA /* AppDelegate.swift in Sources */,
+				C831626729F6B20C00EC73EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627329F6B20E00EC73EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831627C29F6B20E00EC73EA /* WisdomLeafTakeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831627D29F6B20E00EC73EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831628629F6B20E00EC73EA /* WisdomLeafTakeHomeUITests.swift in Sources */,
+				C831628829F6B20E00EC73EA /* WisdomLeafTakeHomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C831627929F6B20E00EC73EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C831626029F6B20C00EC73EA /* WisdomLeafTakeHome */;
+			targetProxy = C831627829F6B20E00EC73EA /* PBXContainerItemProxy */;
+		};
+		C831628329F6B20E00EC73EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C831626029F6B20C00EC73EA /* WisdomLeafTakeHome */;
+			targetProxy = C831628229F6B20E00EC73EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C831626A29F6B20C00EC73EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C831626B29F6B20C00EC73EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C831626F29F6B20D00EC73EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C831627029F6B20D00EC73EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C831628929F6B20E00EC73EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C831628A29F6B20E00EC73EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C831628C29F6B20E00EC73EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WisdomLeafTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C831628D29F6B20E00EC73EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WisdomLeafTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C831628F29F6B20E00EC73EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomLeafTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WisdomLeafTakeHome";
+			};
+			name = Debug;
+		};
+		C831629029F6B20E00EC73EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomLeafTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WisdomLeafTakeHome";
+			};
+			name = Release;
+		};
+		C831629229F6B20E00EC73EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisdomLeafTakeHome;
+			};
+			name = Debug;
+		};
+		C831629329F6B20E00EC73EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanand.WisdomLeaf.WisdomLeafTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisdomLeafTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C831625C29F6B20C00EC73EA /* Build configuration list for PBXProject "WisdomLeafTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831628929F6B20E00EC73EA /* Debug */,
+				C831628A29F6B20E00EC73EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831628B29F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831628C29F6B20E00EC73EA /* Debug */,
+				C831628D29F6B20E00EC73EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831628E29F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831628F29F6B20E00EC73EA /* Debug */,
+				C831629029F6B20E00EC73EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831629129F6B20E00EC73EA /* Build configuration list for PBXNativeTarget "WisdomLeafTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831629229F6B20E00EC73EA /* Debug */,
+				C831629329F6B20E00EC73EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C831625929F6B20C00EC73EA /* Project object */;
+}
